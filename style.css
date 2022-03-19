@@ -22,7 +22,7 @@ footer {
  text-align: center;
 }
 
-footer p {
+.footercenter {
  margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
