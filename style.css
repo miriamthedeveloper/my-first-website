@@ -37,7 +37,12 @@ footer {
    color: #303030;
 }
 
-main p ul {
+main p{
+text-align: center;
+  
+}
+
+main ul{
 text-align: center;
   
 }
