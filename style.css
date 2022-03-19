@@ -18,7 +18,8 @@ padding: 20px;
 }
 
 footer {
-background-color: pink;
+ background-color: pink;
+ text-align: center;
 }
 
 footer p {
