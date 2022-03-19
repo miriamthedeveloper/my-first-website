@@ -47,3 +47,10 @@ footer h3{
   font-family: 'Abril Fatface';
   font-size: 20px;
 }
+
+.centerimage {
+  display:block;
+  margine-left:auto;
+  margine-right:auto;
+}
+  
