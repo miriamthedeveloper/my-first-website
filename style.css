@@ -1,5 +1,7 @@
 header {
   background-color: pink;
+header {
+  background-color: black;
 }
 
 header h1{
@@ -13,27 +15,33 @@ header h1{
 
 header h2{
   color:white;
-padding: 20px;
+  padding: 20px;
   text-align: center;
 }
 
+footer {
+background-color: black;
+}
 
- main h2{
+.footercenter {
+ margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: 'Abril Fatface';
+  font-size:20px;
+  text-align: center
+}
+
+ main h1{
   text-align:center;
    color: #303030;
 }
 
-main p{
+main p {
 text-align: center;
+  
 }
-
-.image1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%
-}
-
 
 footer h3{
   padding-top: 40px;
@@ -42,24 +50,32 @@ footer h3{
   font-size: 20px;
 }
 
-footer {
- background-color: pink;
- text-align: center;
+.centercontent {
+  text-align: center;
+  height: 470px
 }
-
-.footercenter {
- margin: 0;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  color: white;
-  font-family: 'Abril Fatface';
-  font-size:20px;
-  text-align: center
-}
-
 ul {
-  justify-content: center;
-  display: flex;
+    display: table; 
+    margin: auto;
+    text-align: left;
 }
 
+ol {
+    display: table; 
+    margin: auto;
+    text-align: left;
+}
 
+/* pseudo-classes code below*/
+
+a{
+  text-decoration: underline;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: purple
+}
